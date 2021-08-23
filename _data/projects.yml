@@ -3,9 +3,10 @@
   link:
   quote: >
   description: | # this will include new lines to allow paragraphs
-    * 풀사이클 개발을 해보게됨
-    * 폴링 방식의 웹/클라이언트 형태에서 일렉트론 및 웹소켓으로 기존클라이언트를 분리하여  
-      실시간 통신 agent를 구현
+    * 풀사이클 개발을 해보게됨(기획,개발,운영,지원)
+    * 폴링 방식의 웹/클라이언트 형태에서 일렉트론 프레임워크로 웹소켓을 서버와 통신하고 기존클라이언트와 IPC통신하는 Window AGENT를 개발하여 관리자가  
+      실시간으로 AGENT에게 명령을 내리는 구조로 변경
+    * backend 와 frontend 분리
        첫 3개월 일지  
         - [2021 11월 오진우_업무일지](https://docs.google.com/spreadsheets/d/1fwe18HTeF_IdiNOft2fxnS6t-9OS33vy1EyEGZRQqbg/edit?usp=sharing)
         - [2021 10월 오진우_업무일지](https://docs.google.com/spreadsheets/d/1mTSRvJfESvaiEtnL8K_YluMlRXIDptF9T4YgJ3MhHRM/edit?usp=sharing)
@@ -36,4 +37,4 @@
   description: | # this will include new lines to allow paragraphs
     * [이슈트래커] 회사에 방치되던 redmine -> Yona로 개편 및 교육 
     * [CI/CD] 지속적인 솔루션 통합을 위한 jenkins 운영
-    * [운영] tomcat 단독서버 솔루션에서 docker 컨테이너 분리된 솔루션으로 개선
+    * [운영] tomcat 단독서버 솔루션에서 docker 컨테이너로 분리된 솔루션으로 개선
