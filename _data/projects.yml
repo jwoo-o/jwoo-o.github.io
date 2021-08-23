@@ -23,11 +23,13 @@
     * 사용자 30만의 국방부 TACS 보안체계 DLP Server 안정화(2020.01 ~ 현재)
         - 슬로우 쿼리 튜닝, tomcat 단독서버에서 apache 웹서버와 tomcat 서버로 분리 
         - 불필요한 요청건 필터
+        - 인사연동 배치 개발
     * 사용자 30만의 국방부 TACS 보안체계 PC보호 Backend API Server 시스템 개편 (2020.04 ~ 현재)
         - nodejs 기반에서 spring-boot로 api서버 변경 개발
     * 순찰 시스템 patrol 네이티브 기반 앱에서 하이브리드 앱으로 개선 (2020.06 ~ 2020.08)
         - 네이티브 xml 화면에서 -> webview를 사용하여 vue.js 화면으로 변경
         - 성능 개선 및 rest api 서버 신규 개발
+       
 
 - layout: top-middle
   name: 개발팀 인프라 운영 관리
