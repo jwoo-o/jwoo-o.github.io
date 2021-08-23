@@ -4,9 +4,9 @@
   quote: >
   description: | # this will include new lines to allow paragraphs
     * 풀사이클 개발을 해보게됨(기획,개발,운영,지원)
-    * 폴링 방식의 웹/클라이언트 형태에서 일렉트론 프레임워크로 웹소켓을 서버와 통신하고 기존클라이언트와 IPC통신하는 Window AGENT를 개발하여 관리자가  
-      실시간으로 AGENT에게 명령을 내리는 구조로 변경
-    * backend 와 frontend 분리
+    * 폴링 방식의 웹/클라이언트 형태에서 일렉트론 프레임워크로 웹소켓을 서버와 통신하고 기존클라이언트와 IPC통신하는<br>
+      Window agent를 개발하여 관리자가 실시간으로 agent에게 명령을 내리는 구조로 변경
+    * backend 와 frontend 분
        첫 3개월 일지  
         - [2021 11월 오진우_업무일지](https://docs.google.com/spreadsheets/d/1fwe18HTeF_IdiNOft2fxnS6t-9OS33vy1EyEGZRQqbg/edit?usp=sharing)
         - [2021 10월 오진우_업무일지](https://docs.google.com/spreadsheets/d/1mTSRvJfESvaiEtnL8K_YluMlRXIDptF9T4YgJ3MhHRM/edit?usp=sharing)
