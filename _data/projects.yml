@@ -4,8 +4,8 @@
   quote: >
   description: | # this will include new lines to allow paragraphs
     * 풀사이클 개발을 해보게됨(기획,개발,운영,지원)
-    * 폴링 방식의 웹/클라이언트 형태에서 일렉트론 프레임워크로 웹소켓을 서버와 통신하고 기존클라이언트와 IPC통신하는<br>
-      Window agent를 개발하여 관리자가 실시간으로 agent에게 명령을 내리는 구조로 변경
+    * 폴링 방식의 웹/클라이언트 형태에서 일렉트론 프레임워크로 Window agent를 개발하여 웹소켓을 관리서버와 실시간통신하고<br>
+      기존클라이언트와 IPC통신하는 구조로 변경
     * backend 와 frontend 분리  
        첫 3개월 일지  
         - [2021 11월 오진우_업무일지](https://docs.google.com/spreadsheets/d/1fwe18HTeF_IdiNOft2fxnS6t-9OS33vy1EyEGZRQqbg/edit?usp=sharing)
@@ -25,8 +25,8 @@
         - 불필요한 요청건 필터
         - 인사연동 배치 개발
     * 사용자 30만의 국방부 TACS 보안체계 PC보호 Backend API Server 시스템 개편 (2020.04 ~ 현재)
-        - nodejs 기반에서 spring-boot로 api서버 변경 개발
-    * 순찰 시스템 patrol 네이티브 기반 앱에서 하이브리드 앱으로 개선 (2020.06 ~ 2020.08)
+        - nodejs 기반에서 spring-boot로 api서버 변경 개발 (postgre -> cubrid 커스터마이징)
+    * 순찰 시스템 [조은 패트롤](https://play.google.com/store/apps/details?id=com.joeunins.joeunpatrol&hl=ko) 네이티브 기반 앱에서 하이브리드 앱으로 개선 (2020.06 ~ 2020.08)
         - 네이티브 xml 화면에서 -> webview를 사용하여 vue.js 화면으로 변경
         - 성능 개선 및 rest api 서버 신규 개발
        
