@@ -3,7 +3,7 @@
   link:
   quote: >
   description: | # this will include new lines to allow paragraphs
-    * 풀사이클 개발을 해보게됨(기획,개발,운영,지원)
+    * 풀사이클 개발(기획,개발,운영,지원)
     * 폴링 방식의 웹/클라이언트 형태에서 일렉트론 프레임워크로 Window agent를 개발하여 웹소켓을 관리서버와 실시간통신하고<br>
       기존클라이언트와 IPC통신하는 구조로 변경
     * backend 와 frontend 분리  
