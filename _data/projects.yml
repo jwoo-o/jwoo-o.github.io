@@ -25,7 +25,7 @@
         - 인사연동 배치 개발
     * 사용자 30만의 국방부 TACS 보안체계 PC보호 Backend API Server 시스템 개편
         - nodejs 기반에서 spring-boot로 api서버 변경 개발 (postgre -> cubrid 커스터마이징)
-    * 순찰 시스템 [조은 패트롤](https://play.google.com/store/apps/details?id=com.joeunins.joeunpatrol&hl=ko) 네이티브 기반 앱에서 하이브리드 앱으로 개선 (2020.06 ~ 2020.08)
+    * 순찰 시스템 [조은 패트롤](https://play.google.com/store/apps/details?id=com.joeunins.joeunpatrol&hl=ko) 네이티브 기반 앱에서 하이브리드 앱으로 개선
         - 네이티브 xml 화면에서 -> webview를 사용하여 vue.js 화면으로 변경
         - 성능 개선 및 rest api 서버 신규 개발
        
