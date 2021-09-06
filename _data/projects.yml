@@ -5,9 +5,9 @@
   description: | # this will include new lines to allow paragraphs
     * 풀사이클 개발(기획,개발,운영,지원)
     * 레거시 jsp 기반시스템 -> backend 와 frontend 분리
-      -  backend - > rest api 전환(멀티모듈 프로젝트)                          
-      -  frontend -> vue.js 기반 spa 환경으로 관리자 페이지 개발
-    * 레거시 폴링 방식의 agent 통신 -> websocket - redis (pub/sub)기반의 실시간통신으로 구조 개선
+      -  backend (spring 3.1 전자정부프레임워크 - mybatis) - > rest api 전환 (spring boot 2.1x - jpa)  - (멀티모듈 프로젝트)                          
+      -  frontend (jsp - jquery) -> vue.js 기반 spa 환경으로 관리자 페이지 개발
+    * 레거시 폴링 방식의 agent 통신 -> websocket - redis (pub/sub)구조의 실시간통신으로 구조 개선
     * 개인정보,매체제어,업데이트 차트용 batch개발
     * elasticsearch로 로그 가공 (차트 데이터로 활용)
     * 관리자의 부서별 계층검색 최적화
