@@ -16,10 +16,9 @@
   job_title: 총무 담당자
   dates: 2018.08 ~ 2019.10
   quote: >
-   한국법인 사옥관리 및 전산화처리
   description: | # this will include new lines to allow paragraphs
-     * 총무 업무
-     * 자산 관리
+     * 자산관리, 입사자 처리 플로우 시스템 개발
+    
      
 - layout: left
   company: 동덕정보통신
