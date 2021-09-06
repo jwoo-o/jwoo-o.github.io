@@ -1,16 +1,19 @@
 - layout: top-middle
-  name: 온라인 DLP 신규 개발 (2020.09 ~ 현재)
+  name: DLP,개인정보 솔루션 (Blue-X ray) 개발 (2020.09 ~ 현재)
   link:
   quote: >
   description: | # this will include new lines to allow paragraphs
     * 풀사이클 개발(기획,개발,운영,지원)
-    * 폴링 방식의 웹/클라이언트 형태에서 일렉트론 프레임워크로 Window agent를 개발하여 웹소켓을 관리서버와 실시간통신하고<br>
-      기존클라이언트와 IPC통신하는 구조로 변경
-    * backend 와 frontend 분리  
-       첫 3개월 일지  
-        - [2021 11월 오진우_업무일지](https://docs.google.com/spreadsheets/d/1fwe18HTeF_IdiNOft2fxnS6t-9OS33vy1EyEGZRQqbg/edit?usp=sharing)
-        - [2021 10월 오진우_업무일지](https://docs.google.com/spreadsheets/d/1mTSRvJfESvaiEtnL8K_YluMlRXIDptF9T4YgJ3MhHRM/edit?usp=sharing)
-        - [2021 09월 오진우_업무일지](https://docs.google.com/spreadsheets/d/1_UcxSSQEv5BgX4EnXvKjDbMwddX72zik4v1_PLIJsys/edit?usp=sharing)
+    * 레거시 jsp 기반시스템 -> backend 와 frontend 분리
+      -  backend - > rest api 전환(멀티모듈 프로젝트)                          
+      -  frontend -> vue.js 기반 spa 환경으로 관리자 페이지 개발
+    * 레거시 폴링 방식의 agent 통신 -> websocket - redis (pub/sub)기반의 실시간통신으로 구조 개선
+    * dashboard 차트용 batch개발  elasticsearch로 가공 및 관리자 dashboard 데이터로 활용
+    * 관리자의 부서별 계층검색 최적화
+    * 클라이언트 정책 DB 최대 100개의 튜플에서 1개의 튜플로 구조 최적화
+    * 사용자,관리자의 로그 aop로 처리하도록 구조 개선
+    * docker 기반 패키지로 서버설치 간편화
+   
        
        
 
@@ -21,8 +24,9 @@
   quote: >
   description: | # this will include new lines to allow paragraphs
     * 사용자 30만의 국방부 TACS 보안체계 DLP Server 안정화
-        - 슬로우 쿼리 튜닝, tomcat 단독서버에서 apache 웹서버와 tomcat 서버로 분리 
+        - 정책 슬로우 쿼리 튜닝, tomcat 단독서버에서 apache 웹서버와 tomcat 서버로 분리 
         - 인사연동 배치 개발
+        - select/insert,update,delete 트랜잭션 분리로 성능 개선
     * 사용자 30만의 국방부 TACS 보안체계 PC보호 Backend API Server 시스템 개편
         - nodejs 기반에서 spring-boot로 api서버 변경 개발 (postgre -> cubrid 커스터마이징)
     * 순찰 시스템 [조은 패트롤](https://play.google.com/store/apps/details?id=com.joeunins.joeunpatrol&hl=ko) 네이티브 기반 앱에서 하이브리드 앱으로 개선
