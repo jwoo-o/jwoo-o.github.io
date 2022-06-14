@@ -12,7 +12,7 @@ author: jwoo-o
 ```
 brew install hadoop
 ```
-만약 **brew**가 없다면 [Homebrew](https://brew.sh/index_ko)**에 접속하여 설치해준다.
+만약 **brew**가 없다면 [Homebrew](https://brew.sh/index_ko)에 접속하여 설치해준다.
 
 ## STEP2. 환경변수 수정
 ```
