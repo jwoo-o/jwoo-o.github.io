@@ -1,10 +1,1 @@
-# 이력서
-
-* [템플릿](https://github.com/sproogen/modern-resume-theme)
-
-## 구동방법
-
-```bash
-bundle install
-bundle exec jekyll serve
-```
+<a href="https://hits.seeyoufarm.com"/><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/jwoo-o/jwoo-o.github.io"/></a>                        

@@ -1,45 +1,62 @@
-# Site
-repository: ohjinnoo/ohjinnoo.github.io
-# favicon: images/favicon.ico
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-# Personal info
-name: 오진우
-title: 웹 개발자
-email: dhwlsdn741@gmail.com
+# Site settings
+title: Gidhub
+brief-intro: BE Developer
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+# url에 임의의 값을 넣으면
+# {{site.url}} 사용시 local 환경에서도 지정한 값을 사용한다.
+    
 
+permalink: /:title/
 
-github_username:  ohjinnoo
+# other links
+github_username:  jwoo-o
+#linkedIn_username:
+#facebook_username:
+#insta_username:
+email: dhwlsnd741@gmail.com
 
-about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Java & Spring 기반의 3년 차 백엔드 개발자로 **전군 30만이 사용하는 시스템에 
-  <br>API/Batch/인프라 구축 등을 해왔습니다.<br/>
-  현재는 연구소내 <mark>웹 개발 리더</mark>로 프레임워크 도입 및 설계 등을 주요 업무로 하고 있습니다.<br/>
-  개인이 하고 싶은 일보다는 <mark>회사와 팀에 도움이 되는</mark> 개발을 해야 한다는 생각에<br>
-  사내에 불편한 휴가, 자산관리시스템을 기획 및 개발을 하여 사내 운영을 했습니다<br/>
+description_footer: ""
 
+# comments
+# two ways to comment, only choose one, and use your own short name
+disqus_shortname: jwoo-o
 
-# Projects Section
-# projects_title: Projects
-
-# Experience Section
-# experience_title: Experience
-
-# Education Section
-# educaton_title: Education
-
-# More Section
-# more_title: A Little More About Me
-  
-# Footer
-footer_show_references: true
+# Statistic Analysis 
+#google_analytics_id:  # google analytics id
 
 # Build settings
-remote_theme: sproogen/resume-theme
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 sass:
-  sass_dir: _sass
-  style: compressed
+  sass_dir:         _sass
+  style:            compressed
 
-plugins:
- - jekyll-seo-tag
+# port (default = 4000)
+# port: 4000
+
+# url
+category_dir: category/
+tag_dir: tag/
+
+# excerpt
+excerpt_separator: "\n\n\n"
+
+# paginate
+plugins: [jekyll-paginate]
+paginate: 6
+
+future: true
+incremental: false
+regenerate : true

@@ -1,37 +1,43 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "ko" }}">
+<html>
 
-{%- include head.html -%}
-<body>
+  {% include head.html %}
 
-    {%- include header.html -%}
-    <meta property="og:image" content="https://ohjinnoo.github.io/images/profile.jpg">
-    <main class="page-content" aria-label="Content">
-        <div class="wrapper">
+  <body>
+    {% include header.html %}
+    
+        {{ content }}
 
-            {%- include about.html -%}
+    {% include footer.html %}
+    {% include backToTop.html %}
+    <script src="{{ " /js/main.js " | prepend: site.baseurl }}" charset="utf-8"></script>
+    <script src="{{ " /js/smooth-scroll.min.js " | prepend: site.baseurl }}" charset="utf-8"></script>
+    <script type="text/javascript">
+      smoothScroll.init({
+        speed: 500, // Integer. How fast to complete the scroll in milliseconds
+        easing: 'easeInOutCubic', // Easing pattern to use
+        offset: 20, // Integer. How far to offset the scrolling anchor location in pixels
+      });
+    </script>
+    <!-- <script src="{{ " /js/scroll.min.js " | prepend: site.baseurl }}" charset="utf-8"></script> -->
 
-            {%- if site.data.projects.size > 0 -%}
-                {%- include projects.html -%}
-            {%- endif -%}
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5d8971d02b039c1e"></script>
 
-            {%- if site.data.skill.size > 0 -%}
-                {%- include skill.html -%}
-            {%- endif -%}
-
-            {%- if site.data.opensource.size > 0 -%}
-                {%- include opensource.html -%}
-            {%- endif -%}
-
-            {%- if site.data.experience.size > 0 -%}
-                {%- include experience.html -%}
-            {%- endif -%}
-
-
-   
-
-        </div>
-    </main>
-</body>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/5e932e2969e9320caac2d415/default';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+        
+  </body>
 
 </html>
