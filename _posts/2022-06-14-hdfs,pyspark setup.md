@@ -18,7 +18,6 @@ brew install hadoop
 ```
 cd /usr/local/Cellar/hadoop/3.3.2/libexec/etc/hadoop
 vi hdfs-site.xml
-
 ```
 
 ```xml
