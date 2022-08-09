@@ -1,8 +1,19 @@
 - layout: left
+  company: 위메프
+  link: http://www.wemakeprice.com
+  job_title: 벡엔드 엔지니어
+  dates: 2021.12 ~ 현재
+  quote: >
+   이커머스 서비스
+  description: | # this will include new lines to allow paragraphs
+     * 8억건의 상품데이터 수집/색인 관련 API/Batch 개발
+     * 상품 수집 모니터링 시스템 개선
+
+- layout: left
   company: 조은아이앤에스
-  link: http://www.joeunins.com/
-  job_title: 웹 개발자
-  dates: 2020.1 ~ 현재
+  link: http://www.joeunins.com
+  job_title: 풀스택 엔지니어
+  dates: 2020.1 ~ 2021.11
   quote: >
    전군 보안 서비스
   description: | # this will include new lines to allow paragraphs
@@ -12,8 +23,8 @@
      
 - layout: left
   company: 지오시스
-  link: https://www.qoo10.com/
-  job_title: 총무 담당자
+  link: https://www.qoo10.com
+  job_title: IT 담당자
   dates: 2018.08 ~ 2019.10
   quote: >
   description: | # this will include new lines to allow paragraphs
@@ -22,6 +33,7 @@
      
 - layout: left
   company: 동덕정보통신
+  link: http://www.dongdeuk.co.kr
   job_title: 시스템 관리
   dates: 2016.06 ~ 2018.01
   quote: >
