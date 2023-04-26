@@ -4,7 +4,7 @@
   quote: >
   description: | # this will include new lines to allow paragraphs
     * 8억건의 상품중 중복된 데이터를 카탈로그로 가공하기 위한 ES 검색 시스템을 개발
-    * ngram tokenizer를 활용하여 검색 풀질 향상
+    * ngram tokenizer를 활용하여 검색 품질 향상
 
 - layout: top-middle
   name: 상품 메타 데이터 색인 시스템 개발 (2022.01 ~ 2022.03)
