@@ -10,6 +10,10 @@
         <div class="wrapper">
 
             {%- include about.html -%}
+            
+            {%- if site.data.experience.size > 0 -%}
+                {%- include experience.html -%}
+            {%- endif -%}
 
             {%- if site.data.projects.size > 0 -%}
                 {%- include projects.html -%}
@@ -22,11 +26,6 @@
             {%- if site.data.opensource.size > 0 -%}
                 {%- include opensource.html -%}
             {%- endif -%}
-
-            {%- if site.data.experience.size > 0 -%}
-                {%- include experience.html -%}
-            {%- endif -%}
-
 
    
 
