@@ -6,7 +6,7 @@
   quote: >
    이커머스 서비스
   description: | # this will include new lines to allow paragraphs
-     * 8억건의 상품데이터 수집/색인 관련 API/Batch 개발
+     * 11번가, 유닛808, 인터파크 등 제휴 쇼핑물에서 제공하는 상품 약 10억건의 EP를 받거나, 크롤링하여 데이터를 수집, 가공, 적재하는 Batch 개발
      * 상품 수집 모니터링 시스템 개선
 
 - layout: left
