@@ -41,7 +41,7 @@
     * 장애시 슬랙 알람을 통한 모니터링 구축
 
 - layout: top-middle
-  name: DLP,개인정보 솔루션 (Blue-X ray) 개발
+  name: DLP,개인정보 보안솔루션 (Blue-X ray) 개발
   link:
   quote: >
   description: | # this will include new lines to allow paragraphs
@@ -49,7 +49,7 @@
     * jsp 기반시스템 -> backend 와 frontend 분리
       -  backend (spring 3.1 전자정부프레임워크 - mybatis) - > rest api 전환 (spring boot 2.1x - jpa)  - (멀티모듈 프로젝트)                          
       -  frontend (jsp - jquery) -> vue.js 기반 spa 환경으로 관리자 페이지 개발
-    * 폴링 방식의 agent 통신 -> websocket - redis (pub/sub)구조로 변경하여 실시간 정책적용으로 개선
+    * 폴링 방식의 agent 통신 -> websocket - redis (pub/sub)구조로 변경하여 실시간 정책 적용이 가능하도록 개선
     * 개인정보,매체제어애 대한 로그를 분석가능하도록 차트용 batch개발
     * 관리자의 부서별 계층검색 최적화
     * 클라이언트 정책 DB 최대 100개의 로우에서 1개의 로우로 구조 최적화
