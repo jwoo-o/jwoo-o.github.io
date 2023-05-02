@@ -1,22 +1,47 @@
 - layout: top-middle
-  name: 상품 메타 데이터 검색 시스템 개발 (2021.03 ~ 2022.05)
+  name: EP 전송 시스템 리아키텍처링 TF (PHP -> Kotlin 기술 스택 전환)
   link:
   quote: >
   description: | # this will include new lines to allow paragraphs
-    * 8억건의 상품중 중복된 데이터를 카탈로그로 가공하기 위한 ES 검색 시스템을 개발
-    * ngram tokenizer를 활용하여 검색 품질 향상
+    * 사내 기술스텍이 Kotlin으로 지정되어 오래된 레거시 EP 전송 시스템을 개편하기 위해 TF 참여
+    * IDC환경에서 -> 클라우드 진행
+    * 스트리밍 아키텍처
 
 - layout: top-middle
-  name: 상품 메타 데이터 색인 시스템 개발 (2022.01 ~ 2022.03)
+  name: DB 마이그레이션 (버티카 -> 몽고DB 전환)
   link:
   quote: >
   description: | # this will include new lines to allow paragraphs
-    * 8억건의 상품 데이터를 원할하게 검색할 수 있도록 ES로 색인
-    * 상품을 256개로 분할하여 SQS를 통해 동시에 색인 할 수 있는 구조 시스템을 설계
+    * 상품수 증가에 따른 버티카DB에 성능 문제가 발생하기 시작하여 사내 구축된 DataLake팀의 몽고DB로 전환
+    * DataLake팀과 협업하여 카프카를 통해 상품DB 전환
+
+- layout: top-middle
+  name: 상품 수집 모니터링 시스템 개선
+  link:
+  quote: >
+  description: | # this will include new lines to allow paragraphs
+    * 모니터링 시스템이 각개 분산되어 있어 한곳에서 모니터링을 할 수 있도록 그라파나 도입
+    * 현재 수집중인 서버, 평균 시간별 수집량, 이미지수집 상태, 업체별 상품수, 배치상태 등을 그라파나를 통해 개선
+
+- layout: top-middle
+  name: 상품 메타 데이터 검색 시스템 개발
+  link:
+  quote: >
+  description: | # this will include new lines to allow paragraphs
+    * 8억건의 제휴 상품중 비슷한 상품을 카탈로그로 가공하기 위한 ES 상품 검색 시스템을 개발
+    * ngram tokenizer를 활용하여 상품 검색 품질 향상
+
+- layout: top-middle
+  name: 상품 메타 데이터 색인 시스템 개발
+  link:
+  quote: >
+  description: | # this will include new lines to allow paragraphs
+    * 8억건의 제휴 상품 데이터를 원할하게 검색할 수 있도록 ES로 색인
+    * 상품을 256개의 키로 분할하여 SQS를 통해 동시에 색인 할 수 있는 구조 시스템을 설계
     * 장애시 슬랙 알람을 통한 모니터링 구축
 
 - layout: top-middle
-  name: DLP,개인정보 솔루션 (Blue-X ray) 개발 (2020.09 ~ 2021.11)
+  name: DLP,개인정보 솔루션 (Blue-X ray) 개발
   link:
   quote: >
   description: | # this will include new lines to allow paragraphs
@@ -24,12 +49,10 @@
     * jsp 기반시스템 -> backend 와 frontend 분리
       -  backend (spring 3.1 전자정부프레임워크 - mybatis) - > rest api 전환 (spring boot 2.1x - jpa)  - (멀티모듈 프로젝트)                          
       -  frontend (jsp - jquery) -> vue.js 기반 spa 환경으로 관리자 페이지 개발
-    * 폴링 방식의 agent 통신 -> websocket - redis (pub/sub)구조의 실시간통신으로 구조 개선
-    * 개인정보,매체제어,업데이트 차트용 batch개발
-    * DB-logstash-elasticsearch 플로우로 로그 가공 (Dashboard 차트 데이터로 활용)
+    * 폴링 방식의 agent 통신 -> websocket - redis (pub/sub)구조로 변경하여 실시간 정책적용으로 개선
+    * 개인정보,매체제어애 대한 로그를 분석가능하도록 차트용 batch개발
     * 관리자의 부서별 계층검색 최적화
     * 클라이언트 정책 DB 최대 100개의 로우에서 1개의 로우로 구조 최적화
-    * 사용자,관리자의 로그 aop로 처리하도록 구조 개선
     * docker 기반 패키지로 솔루션 설치 간편화
    
 - layout: top-middle
@@ -42,10 +65,10 @@
         - 인사연동 배치 개발
         - select/insert,update,delete 트랜잭션 분리로 성능 개선
     * 사용자 30만의 국방부 TACS 보안체계 PC보호 Backend API Server 시스템 개편
-        - nodejs 기반에서 spring-boot로 api서버 변경 개발 (postgre -> cubrid 커스터마이징)
+        - nodejs 기반에서 spring-boot로 api서버 변경 개발 (postgre -> cubrid DB 마이그레이션)
     * 순찰 시스템 [조은 패트롤](https://play.google.com/store/apps/details?id=com.joeunins.joeunpatrol&hl=ko) 네이티브 기반 앱에서 하이브리드 앱으로 개선
         - 네이티브 xml 화면에서 -> webview를 사용하여 vue.js 화면으로 변경
-        - 성능 개선 및 rest api 서버 신규 개발
+        - 전반적인 성능 개선 및 rest api 서버 신규 개발
        
 
 - layout: top-middle
