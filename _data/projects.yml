@@ -4,8 +4,8 @@
   quote: >
   description: | # this will include new lines to allow paragraphs
     * 사내 기술스텍이 Kotlin으로 지정되어 오래된 레거시 EP 전송 시스템을 개편하기 위해 TF 참여
-    * IDC환경에서 -> 클라우드 진행
-    * 스트리밍 아키텍처
+    * IDC환경 -> 클라우드환경
+    * 스트리밍 아키텍처도입
 
 - layout: top-middle
   name: DB 마이그레이션 (버티카 -> 몽고DB 전환)
