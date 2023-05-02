@@ -8,7 +8,7 @@
     * 스트리밍 아키텍처도입
 
 - layout: top-middle
-  name: DB 마이그레이션 (버티카 -> 몽고DB 전환)
+  name: 상품DB 마이그레이션 (버티카DB -> 몽고DB 전환)
   link:
   quote: >
   description: | # this will include new lines to allow paragraphs
@@ -56,18 +56,19 @@
     * docker 기반 패키지로 솔루션 설치 간편화
    
 - layout: top-middle
-  name: 레거시 시스템 리팩토링 / 리엔지니어링 
+  name: 레거시 보안시스템 리팩토링 / 리엔지니어링
   link:
   quote: >
   description: | # this will include new lines to allow paragraphs
     * 사용자 30만의 국방부 TACS 보안체계 DLP Server 안정화
-        - 정책 슬로우 쿼리 튜닝, tomcat 단독서버에서 apache 웹서버와 tomcat 서버로 분리 
+        - 정책 슬로우 쿼리 튜닝, tomcat 단독서버에서 apache Web Server와 tomcat Was Server로 분리 
         - 인사연동 배치 개발
         - select/insert,update,delete 트랜잭션 분리로 성능 개선
-    * 사용자 30만의 국방부 TACS 보안체계 PC보호 Backend API Server 시스템 개편
-        - nodejs 기반에서 spring-boot로 api서버 변경 개발 (postgre -> cubrid DB 마이그레이션)
+    * 사용자 30만의 국방부 TACS 보안체계 PC보호 Backend API Server DB 마이그레이션
+        - postgre -> cubrid DB 마이그레이션
+        - nodejs 기반에서 spring-boot로 기술스택 전환
     * 순찰 시스템 [조은 패트롤](https://play.google.com/store/apps/details?id=com.joeunins.joeunpatrol&hl=ko) 네이티브 기반 앱에서 하이브리드 앱으로 개선
-        - 네이티브 xml 화면에서 -> webview를 사용하여 vue.js 화면으로 변경
+        - 네이티브 xml front -> webview를 사용한 vue.js 기반 front로 변경
         - 전반적인 성능 개선 및 rest api 서버 신규 개발
        
 
