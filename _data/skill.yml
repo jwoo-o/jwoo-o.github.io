@@ -5,12 +5,11 @@
     * Spring Boot, Spring MVC, Spring Security, Spring Batch Mybatis, Spring Data JPA/Redis
     * JPA, Querydsl
     * Gradle, Maven
-    * IntelliJ, Visual Studio Code 
 - layout: left
   name: DevOps
   description: | # this will include new lines to allow paragraphs
-    * VERTICA, CUBRID
-    * ELASTICSEARCH
+    * Vertica, Cubrid
+    * Elasticsearch
     * AWS SQS, S3, EC2
     * Jenkins
     * Grafana
