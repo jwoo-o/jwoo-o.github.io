@@ -5,9 +5,6 @@
     {%- if include.item.link -%}
       {% include a.html href=include.item.link class="link" %}{{ include.item.link }}</a>
     {%- endif -%}
-    {%- if include.item.job_title -%}<p><b>{{ include.item.job_title }}</b></p>{%- endif -%}
-    {%- if include.item.qualification -%}<p>{{ include.item.qualification }}</p>{%- endif -%}
-    {%- if include.item.dates -%}<p>{{ include.item.dates }}</p>{%- endif -%}
     {% for job in include.item.jobs %}
       <p><b>{{ job.title }}</b></p>
       <p>{{ job.dates }}</p>
