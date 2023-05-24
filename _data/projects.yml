@@ -4,7 +4,7 @@
 - layout: top
   quote: >
   description: | # this will include new lines to allow paragraphs
-    ### EP 전송 시스템 리아키텍처링 TF (PHP -> Kotlin 기술 스택 전환)
+    #### EP 전송 시스템 리아키텍처링 TF (PHP -> Kotlin 기술 스택 전환)
     * 배경
       * 사내 기술스텍이 Kotlin으로 지정되어 오래된 레거시 EP 전송 시스템을 개편하기 위해 TF 참여
       * IDC환경 -> 클라우드환경
@@ -13,7 +13,7 @@
 - layout: top
   quote: >
   description: | # this will include new lines to allow paragraphs
-    ### 상품DB 마이그레이션 (버티카DB -> 몽고DB 전환)
+    #### 상품DB 마이그레이션 (버티카DB -> 몽고DB 전환)
     * 배경
       * 상품수 증가에 따른 버티카DB에 성능 문제가 발생하기 시작하여 사내 구축된 DataLake팀의 몽고DB로 전환
       * DataLake팀과 협업하여 카프카를 통해 상품DB 전환
@@ -26,7 +26,7 @@
 - layout: top
   quote: >
   description: | # this will include new lines to allow paragraphs
-    ### 상품 수집 모니터링 시스템 개선
+    #### 상품 수집 모니터링 시스템 개선
     * 배경
       * OOM이슈로 Vertica Batch서버가 다운된 상태로 장애를 인지하는데 일주일이 소요됨
       * 해당 서버는 실제 서버에 접속해보지 않는 이상 헬스 체크가 불가능 했음
@@ -39,7 +39,7 @@
 - layout: top
   quote: >
   description: | # this will include new lines to allow paragraphs
-    ### 상품 메타 데이터 검색 시스템 개발
+    #### 상품 메타 데이터 검색 시스템 개발
     * 사용기술 : Spring Boot, Java 8, Elasticsearch
     * 핵심성과
       * 8억건의 제휴 상품중 비슷한 상품을 카탈로그로 가공하기 위한 ES 상품 검색 api개발
@@ -51,7 +51,7 @@
 - layout: top
   quote: >
   description: | # this will include new lines to allow paragraphs
-    ### 상품 메타 데이터 색인 시스템 개발
+    #### 상품 메타 데이터 색인 시스템 개발
     * 사용기술 : Spring Boot, Java 8, VerticaDB, AWS SQS, Elasticsearch
     * 핵심성과
       * 8억건의 제휴 상품 데이터를 원할하게 검색할 수 있도록 ES로 색인
@@ -67,7 +67,7 @@
 - layout: top
   quote: >
   description: | # this will include new lines to allow paragraphs
-    ### DLP, 개인정보 보안솔루션 (Blue-X ray) 어드민 및 서버 개발
+    #### DLP, 개인정보 보안솔루션 (Blue-X ray) 어드민 및 서버 개발
     * 사용기술 : Spring Boot, Java 8, Cubrid, Redis, Elasticsearch, vue.js, Docker swarm, Nginx
     * 핵심성과
       * 풀사이클 개발(기획,개발,운영,지원)
@@ -82,7 +82,7 @@
 - layout: top
   quote: >
   description: | # this will include new lines to allow paragraphs
-    ### 레거시 보안시스템 리팩토링 / 리엔지니어링
+    #### 레거시 보안시스템 리팩토링 / 리엔지니어링
     * 사용자 30만의 국방부 TACS 보안체계 DLP Server 안정화
       * 정책 슬로우 쿼리 튜닝 
       * 군 인사시스템과 인사연동 배치 개발
@@ -96,10 +96,9 @@
        
 
 - layout: top
-  name: 개발팀 인프라 운영 관리
-  link:
   quote: >
   description: | # this will include new lines to allow paragraphs
+    #### 개발팀 인프라 운영 관리
     * [이슈트래커] 회사에 방치되던 redmine -> Yona로 개편 및 교육 
     * [CI/CD] 지속적인 솔루션 통합을 위한 jenkins 운영
     * [운영] tomcat 단독서버 솔루션에서 docker 컨테이너로 분리된 솔루션으로 개선
