@@ -2,10 +2,9 @@
   name: 주요성과 - 위메프
 
 - layout: top
-  name: EP 전송 시스템 리아키텍처링 TF (PHP -> Kotlin 기술 스택 전환)
-  link:
   quote: >
   description: | # this will include new lines to allow paragraphs
+    # EP 전송 시스템 리아키텍처링 TF (PHP -> Kotlin 기술 스택 전환)
     * 배경
       * 사내 기술스텍이 Kotlin으로 지정되어 오래된 레거시 EP 전송 시스템을 개편하기 위해 TF 참여
       * IDC환경 -> 클라우드환경
