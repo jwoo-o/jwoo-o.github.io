@@ -1,7 +1,7 @@
 - layout: top-middle
   name: 주요성과 - 위메프
 
-- layout: left
+- layout: top
   name: EP 전송 시스템 리아키텍처링 TF (PHP -> Kotlin 기술 스택 전환)
   link:
   quote: >
@@ -11,7 +11,7 @@
       * IDC환경 -> 클라우드환경
       * 스트리밍 아키텍처도입
 
-- layout: left
+- layout: top
   name: 상품DB 마이그레이션 (버티카DB -> 몽고DB 전환)
   link:
   quote: >
@@ -25,7 +25,7 @@
       * 배치 성능 개선 (최초 3000만건 1시간 20분 -> 3000만건 30분 **62.5% 성능 향상**)
       * 10억건 이상의 상품 데이터 수집 가능
 
-- layout: left
+- layout: top
   name: 상품 수집 모니터링 시스템 개선
   link:
   quote: >
@@ -39,7 +39,7 @@
       * 현재 수집중인 서버, 평균 시간별 수집량, 이미지수집 상태, 업체별 상품수, 배치상태 등 분산된 정보를 한곳으로 통합하여  
         빠른 장애 전파 및 모든 팀원이 기민하게 대응 할 수 있는 여건 확립
 
-- layout: left
+- layout: top
   name: 상품 메타 데이터 검색 시스템 개발
   link:
   quote: >
@@ -52,7 +52,7 @@
       * 검색 성능 테스트 방법
       * ES 검색 api 사용법
 
-- layout: left
+- layout: top
   name: 상품 메타 데이터 색인 시스템 개발
   link:
   quote: >
@@ -69,7 +69,7 @@
 - layout: top-middle
   name: 주요성과 - 조은아이앤에스
 
-- layout: left
+- layout: top
   name: DLP,개인정보 보안솔루션 (Blue-X ray) 어드민 개발
   link:
   quote: >
@@ -85,7 +85,7 @@
       * docker 기반 패키지로 솔루션 설치 간편화
     * 역할 : 풀스택 엔지니어로써 보안 솔루션 어드민 및 서버 개발
    
-- layout: left
+- layout: top
   name: 레거시 보안시스템 리팩토링 / 리엔지니어링
   link:
   quote: >
@@ -102,7 +102,7 @@
       * 전반적인 성능 개선 및 rest api 서버 신규 개발
        
 
-- layout: left
+- layout: top
   name: 개발팀 인프라 운영 관리
   link:
   quote: >
