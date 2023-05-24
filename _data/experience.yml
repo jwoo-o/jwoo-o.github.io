@@ -21,7 +21,7 @@
    전군 보안 서비스(Java)
   description: | # this will include new lines to allow paragraphs
      * Dau 30만의 대규모 트래픽 / 대용량 로그 데이터 환경에서의 API/Batch 개발
-     * 솔루션 시스템 레거시 개선
+     * 보안솔루션 레거시 개선
      * 아키텍처, 개발문화 등 개발환경 개선
      
 - layout: left
