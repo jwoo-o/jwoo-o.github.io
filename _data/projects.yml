@@ -3,26 +3,38 @@
   link:
   quote: >
   description: | # this will include new lines to allow paragraphs
-    * 사내 기술스텍이 Kotlin으로 지정되어 오래된 레거시 EP 전송 시스템을 개편하기 위해 TF 참여
-    * IDC환경 -> 클라우드환경
-    * 스트리밍 아키텍처도입
+    * 배경
+      * 사내 기술스텍이 Kotlin으로 지정되어 오래된 레거시 EP 전송 시스템을 개편하기 위해 TF 참여
+      * IDC환경 -> 클라우드환경
+      * 스트리밍 아키텍처도입
 
 - layout: top-middle
   name: 상품DB 마이그레이션 (버티카DB -> 몽고DB 전환)
   link:
   quote: >
   description: | # this will include new lines to allow paragraphs
-    * 상품수 증가에 따른 버티카DB에 성능 문제가 발생하기 시작하여 사내 구축된 DataLake팀의 몽고DB로 전환
-    * DataLake팀과 협업하여 카프카를 통해 상품DB 전환
+    * 배경
+      * 상품수 증가에 따른 버티카DB에 성능 문제가 발생하기 시작하여 사내 구축된 DataLake팀의 몽고DB로 전환
+      * DataLake팀과 협업하여 카프카를 통해 상품DB 전환
+    * 사용기술 : Vertica, Kafka, Mongo
+    * 햑심성과
+      * db 마이그레이션 후 정합성 100% 달성
+      * 배치 성능 개선 (최초 3000만건 1시간 20분 -> 3000만건 30분 **62.5% 성능 향상**)
+      * 10억건 이상의 상품 데이터 수집 가능
 
 - layout: top-middle
   name: 상품 수집 모니터링 시스템 개선
   link:
   quote: >
   description: | # this will include new lines to allow paragraphs
+    * 배경
+      * OOM이슈로 Vertica Batch서버가 다운된 상태로 장애 인지하는데 일주일이 소요됨
+      * 해당 서버는 실제 서버에 접속해보지 않는 이상 헬스 체크가 불가능 했음
+      * 사내에 전사 그라파나가 존재한다는 것을 확인하고 프로젝트 착수
     * 사용기술 : Vertica, Grafana
     * 핵심성과
-      * 현재 수집중인 서버, 평균 시간별 수집량, 이미지수집 상태, 업체별 상품수, 배치상태 등 분산된 정보 한곳으로 통합
+      * 현재 수집중인 서버, 평균 시간별 수집량, 이미지수집 상태, 업체별 상품수, 배치상태 등 분산된 정보를 한곳으로 통합하여  
+        빠른 장애 전파 및 모든 팀원이 기민하게 대응 할 수 있는 여건 확립
 
 - layout: top-middle
   name: 상품 메타 데이터 검색 시스템 개발
@@ -33,7 +45,7 @@
     * 핵심성과
       * 8억건의 제휴 상품중 비슷한 상품을 카탈로그로 가공하기 위한 ES 상품 검색 api개발
       * ngram tokenizer를 활용하여 상품 검색 품질 향상
-    * 획득 역량
+    * 획득역량
       * 검색 성능 테스트 방법
       * ES 검색 api 사용법
 
@@ -47,10 +59,9 @@
       * 8억건의 제휴 상품 데이터를 원할하게 검색할 수 있도록 ES로 색인
       * 상품을 256개의 키로 분할하여 SQS를 통해 동시에 색인 할 수 있는 구조를 설계
       * 장애시 슬랙 알람을 통한 모니터링 구축
-    * 역할 : 백엔드 및 데이터 엔지니어로써 제휴사 상품 ES에 색인
-    * 획득 역량
+    * 획득역량
       * 대용량 데이터에 대한 ES 색인방법
-      * 색인 성능 테스트 방법
+      * 색인 성능 테스트 방법 
 
 - layout: top-middle
   name: DLP,개인정보 보안솔루션 (Blue-X ray) 어드민 개발
@@ -60,13 +71,11 @@
     * 사용기술 : Spring Boot, Java 8, Cubrid, Redis, Elasticsearch, vue.js, Docker swarm, Nginx
     * 핵심성과
       * 풀사이클 개발(기획,개발,운영,지원)
-      * 폴링 방식의 agent 통신 -> websocket - redis (pub/sub)구조로 변경하여 실시간 정책 적용이 가능
+      * agent 실시간 정책 적용
       * jsp 기반시스템 -> backend 와 frontend 분리
         * backend (spring 3.1 전자정부프레임워크) - > rest api 전환 (spring boot 2.1x - jpa)  - (멀티모듈 프로젝트)                          
-        * frontend (jsp - jquery) -> vue.js 기반 spa 환경으로 관리자 페이지 개발
+        * frontend (jsp - jquery) -> vue.js 기반 spa 환경으로 관리자 admin 개발
       * 개인정보,매체제어애 대한 로그를 분석가능하도록 차트용 batch개발
-      * 관리자의 부서별 계층검색 최적화
-      * 클라이언트 정책 DB 최대 100개의 로우에서 1개의 로우로 구조 최적화
       * docker 기반 패키지로 솔루션 설치 간편화
     * 역할 : 풀스택 엔지니어로써 보안 솔루션 어드민 및 서버 개발
    
