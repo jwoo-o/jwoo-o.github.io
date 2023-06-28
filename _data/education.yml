@@ -1,0 +1,17 @@
+- layout: left
+  name: ATDD, 클린 코드 with Spring 7기
+  dates: 2023-06 ~ 2023-08
+  link: 
+  quote: >
+    Next Step 교육
+  description: | # this will include new lines to allow paragraphs
+    * ATDD와 클린코드 교육
+
+- layout: left
+  name: TDD, 클린 코드 with Java 15기
+  dates: 2022-09 ~ 2022-11
+  link: 
+  quote: >
+    Next Step 교육
+  description: | # this will include new lines to allow paragraphs
+    * TDD와 클린코드 교육
