@@ -1,4 +1,22 @@
 - layout: left
+  name: 만들면서 배우는 Spring 4기
+  dates: 2024-07 ~ 2024-08
+  link: 
+  quote: >
+    Next Step 교육
+  description: | # this will include new lines to allow paragraphs
+    * 스프링 프레임워크를 직접 구현하는 과정
+
+- layout: left
+  name: 만들면서 배우는 JPA 3기
+  dates: 2024-02 ~ 2024-03
+  link: 
+  quote: >
+    Next Step 교육
+  description: | # this will include new lines to allow paragraphs
+    * JPA 스펙을 가지고 직접 라이브러리를 구현하는 과정
+
+- layout: left
   name: ATDD, 클린 코드 with Spring 7기
   dates: 2023-06 ~ 2023-08
   link: 
