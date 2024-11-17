@@ -2,37 +2,38 @@
   name: 주요성과 - 야놀자 F&B Solution
 
 - layout: top
-  name: 나우웨이팅 시스템 리엔지니어링
+  name: 나우웨이팅 서비스 리엔지니어링
   quote: >
   description: | # this will include new lines to allow paragraphs
     * 배경
       * 루비 온 레일즈로 운영중인 나우웨이팅 서비스의 클라이언트(FE, AND)의 요청 부분을 자바 프로젝트로 기술전환
-    * 사용기술 : Spring boot, Spring Cloud Gateway, Jpa, Postgresql
+    * 사용기술 : Spring boot, Spring Cloud Gateway, JPA
     * 핵심성과
-      * CI/CD, 로깅, 모니터링 도입 - 젠킨스(CI/CD), 페이퍼트레일(로깅), 집킨(분산추적), 그라파나(성능)
+      * CI/CD, 로깅, 모니터링 도입을 통한 개발비용 절감
       * 에러코드, api문서(스웨거) 관리로 인한 FE,AND 팀과 협업이 용이하도록 개선
 
 - layout: top
-  name: 나우웨이팅 시스템 개선
+  name: 나우웨이팅 서비스 개선
   quote: >
   description: | # this will include new lines to allow paragraphs
     * 배경
-      * 루비 온 레일즈로 운영중인 나우웨이팅 서비스가 6개월간의 이전 개발자들의 부재로 <br> 인한 히스토리 단절된 상태에서 유지보수가 가능한 구조가 필요
+      * 루비 온 레일즈로 운영중인 나우웨이팅 서비스가 6개월간 <br> 이전 개발자들의 부재로 인한 히스토리 단절된 상태에서 유지보수가 가능한 구조로 재정비 필요
+    * 사용기술 : Ruby on Rails, Sidekiq
     * 핵심성과
-      * 유지보수 가능하도록 현행화
-      * Circle Ci를 통한 CI/CD 개선
+      * 유지보수 가능하도록 현행화 작업을 통한 신뢰성 향상
+      * Circle Ci를 통한 CI/CD 파이프라인 구축
       * Elastic Beanstalk의 버전 이슈 대응
 
 - layout: top
-  name: 온라인 주문시스템 개발
+  name: 모바일 주문시스템 개발
   quote: >
   description: | # this will include new lines to allow paragraphs
     * 배경
-      * 카카오톡의 챗봇 주문하기 서비스 종료
+      * 카카오톡의 챗봇 주문하기 서비스 종료(https://www.mk.co.kr/news/business/10853578)
       * 계약된 사장님들의 이탈 방지
     * 핵심성과
-      * [야오더 런칭](https://m.news.nate.com/view/20231123n08068)
-      * 입사 3개월 만에 우수사원 선정  
+      * 야오더를 런칭 할 수 있는 발판 마련(https://m.news.nate.com/view/20231123n08068)
+      * 입사 3개월 만에 우수사원 선정
   
 - layout: top-middle
   name: 주요성과 - 위메프
