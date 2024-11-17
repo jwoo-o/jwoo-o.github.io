@@ -29,10 +29,10 @@
   quote: >
   description: | # this will include new lines to allow paragraphs
     * 배경
-      * 카카오톡의 챗봇 주문하기 서비스 종료(https://www.mk.co.kr/news/business/10853578)
-      * 계약된 사장님들의 이탈 방지
+      * [카카오톡의 챗봇 주문하기 서비스 종료](https://www.mk.co.kr/news/business/10853578)
+      * 모바일 주문 서비스에 계약된 사장님들의 이탈 방지
     * 핵심성과
-      * 야오더를 런칭 할 수 있는 발판 마련(https://m.news.nate.com/view/20231123n08068)
+      * [야오더를 런칭 할 수 있는 발판 마련](https://m.news.nate.com/view/20231123n08068)
       * 입사 3개월 만에 우수사원 선정
   
 - layout: top-middle
