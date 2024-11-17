@@ -1,11 +1,11 @@
 - layout: left
-  name: asset.v2
-  link: https://github.com/ohjinnoo/asset.project.v2
+  name: 만들면서 배우는 JPA 3기
+  dates: 2024.07 ~ 2024.08
+  link: https://edu.nextstep.camp/c/4YUvqn9V
   quote: >
-    자산관리 시스템 개선
+    Next Step 교육
   description: | # this will include new lines to allow paragraphs
-    * 회사 내부 휴가시스템의 사용불편,자산관리가 안되는게 확인되어 개발하게됨
-    * 사내에 서비스가 됨
+    * 스프링 프레임워크를 직접 구현하는 과정
     
 - layout: left
   name: asset.v1
