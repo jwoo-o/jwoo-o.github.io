@@ -1,17 +1,36 @@
 - layout: left
-  name: 만들면서 배우는 JPA 3기
+  name: 만들면서 배우는 Spring 4기
   dates: 2024.07 ~ 2024.08
   link: https://edu.nextstep.camp/c/4YUvqn9V
   quote: >
     Next Step 교육
   description: | # this will include new lines to allow paragraphs
     * 스프링 프레임워크를 직접 구현하는 과정
-    
+
 - layout: left
-  name: asset.v1
-  link: https://github.com/ohjinnoo/asset.project
+  name: 만들면서 배우는 JPA 3기
+  dates: 2024.02 ~ 2024.03
+  link: https://edu.nextstep.camp/c/UHESCzBt
   quote: >
-    자산관리 시스템
+    Next Step 교육
   description: | # this will include new lines to allow paragraphs
-    * 엑셀로 자산관리,입사자 및 업무 공유가 불편하여 개발
-    * 사내에 서비스가 됨
+    * 스프링 프레임워크를 직접 구현하는 과정
+
+- layout: left
+  name: ATDD 클린 코드 with Spring 7기
+  dates: 2023.06 ~ 2023.08
+  link: https://edu.nextstep.camp/c/R89PYi5H
+  quote: >
+    Next Step 교육
+  description: | # this will include new lines to allow paragraphs
+    * ATDD와 클린코드 교육 과정
+
+- layout: left
+  name: TDD 클린 코드 with Java 15기
+  dates: 2022.09 ~ 2022.11
+  link: https://edu.nextstep.camp/c/8fWRxNWU
+  quote: >
+    Next Step 교육
+  description: | # this will include new lines to allow paragraphs
+    * TDD와 클린코드 교육 과정
+
