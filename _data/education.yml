@@ -26,11 +26,11 @@
     * ATDD와 클린코드 교육
 
 - layout: left
-  name: 만들면서 배우는 JPA 3기
-  dates: 2024.02 ~ 2024.03
-  link: https://edu.nextstep.camp/c/UHESCzBt
+  name: TDD, 클린 코드 with Java 15기
+  dates: 2022.09 ~ 2022.11
+  link: https://edu.nextstep.camp/c/8fWRxNWU
   quote: >
     Next Step 교육
   description: | # this will include new lines to allow paragraphs
-    * JPA 스펙을 가지고 직접 라이브러리를 구현하는 과정
+    * TDD와 클린코드 교육
 
