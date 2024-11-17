@@ -22,7 +22,7 @@
     * 핵심성과
       * 유지보수 가능하도록 현행화 작업을 통한 신뢰성 향상
       * Circle Ci를 통한 CI/CD 파이프라인 구축
-      * Elastic Beanstalk의 버전 이슈 대응
+      * Elastic Beanstalk의 루비 버전 이슈 대응
 
 - layout: top
   name: 모바일 주문시스템 개발
