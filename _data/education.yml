@@ -1,8 +1,17 @@
 - layout: left
-  name: TDD, 클린 코드 with Java 15기
-  dates: 2022.09 ~ 2022.11
-  link: https://edu.nextstep.camp/c/8fWRxNWU
+  name: asset.v2
+  link: https://github.com/ohjinnoo/asset.project.v2
   quote: >
-    Next Step 교육
+    자산관리 시스템 개선
   description: | # this will include new lines to allow paragraphs
-    * TDD와 클린코드 교육
+    * 회사 내부 휴가시스템의 사용불편,자산관리가 안되는게 확인되어 개발하게됨
+    * 사내에 서비스가 됨
+    
+- layout: left
+  name: asset.v1
+  link: https://github.com/ohjinnoo/asset.project
+  quote: >
+    자산관리 시스템
+  description: | # this will include new lines to allow paragraphs
+    * 엑셀로 자산관리,입사자 및 업무 공유가 불편하여 개발
+    * 사내에 서비스가 됨
