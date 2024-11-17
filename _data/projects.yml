@@ -1,5 +1,5 @@
 - layout: top-middle
-  name: 주요성과 - 야놀자 에프앤비 솔루션
+  name: 주요성과 - 야놀자 F&B Solution
 
 - layout: top
   name: 나우웨이팅 시스템 리엔지니어링
@@ -17,7 +17,7 @@
   quote: >
   description: | # this will include new lines to allow paragraphs
     * 배경
-      * 루비 온 레일즈로 운영중인 나우웨이팅 서비스가 6개월간의 이전 개발자들의 부재로 인한 히스토리 단절된 상태에서 유지보수가 가능한 구조가 필요
+      * 루비 온 레일즈로 운영중인 나우웨이팅 서비스가 6개월간의 이전 개발자들의 부재로 <br> 인한 히스토리 단절된 상태에서 유지보수가 가능한 구조가 필요
     * 핵심성과
       * 유지보수 가능하도록 현행화
       * Circle Ci를 통한 CI/CD 개선
@@ -28,7 +28,8 @@
   quote: >
   description: | # this will include new lines to allow paragraphs
     * 배경
-      * 카카오톡의 챗봇 주문하기 서비스 종료로 인한 계약된 사장님들의 이탈 방지를 위해 온라인 주문시스템 개발이 필요
+      * 카카오톡의 챗봇 주문하기 서비스 종료
+      * 계약된 사장님들의 이탈 방지
     * 핵심성과
       * [야오더 런칭](https://m.news.nate.com/view/20231123n08068)
       * 입사 3개월 만에 우수사원 선정  
