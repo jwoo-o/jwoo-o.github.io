@@ -2,18 +2,20 @@
   name: Backend
   description: | # this will include new lines to allow paragraphs
     * Java
-    * Spring Boot, Spring MVC, Spring Security, Spring Batch Mybatis, Spring Data JPA/Redis
-    * JPA, Querydsl
+    * Spring Boot, Spring MVC, Spring Security, Spring Batch, Spring Data JPA/Redis, Spring Cloud Gateway
+    * JPA, Querydsl, Mybatis, JOOQ
     * Gradle, Maven
 - layout: left
   name: DevOps
   description: | # this will include new lines to allow paragraphs
-    * Vertica, Cubrid
+    * Vertica, Cubrid, Postgresql
     * Elasticsearch
-    * AWS SQS, S3, EC2
-    * Jenkins
+    * AWS SQS, S3, EC2, EB
+    * Jenkins, Circle Ci
     * Grafana
+    * Zipkin
     * Kafka
+    * Debezium
     * Docker swarm 
     * Nginx, Tomcat
     * Linux Centos
