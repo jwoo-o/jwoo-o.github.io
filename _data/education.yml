@@ -5,7 +5,7 @@
   quote: >
     Next Step 교육
   description: | # this will include new lines to allow paragraphs
-    * 스프링 프레임워크를 직접 구현하는 과정
+     * 스프링 프레임워크를 직접 구현하는 과정
 
 - layout: left
   name: 만들면서 배우는 JPA 3기
