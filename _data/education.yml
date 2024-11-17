@@ -1,6 +1,6 @@
 - layout: left
   name: 만들면서 배우는 Spring 4기
-  dates: 2024-07 ~ 2024-08
+  dates: 2024.07 ~ 2024.08
   link: https://edu.nextstep.camp/c/4YUvqn9V
   quote: >
     Next Step 교육
@@ -9,7 +9,7 @@
 
 - layout: left
   name: 만들면서 배우는 JPA 3기
-  dates: 2024-02 ~ 2024-03
+  dates: 2024.02 ~ 2024.03
   link: https://edu.nextstep.camp/c/UHESCzBt
   quote: >
     Next Step 교육
@@ -18,7 +18,7 @@
 
 - layout: left
   name: ATDD, 클린 코드 with Spring 7기
-  dates: 2023-06 ~ 2023-08
+  dates: 2023.06 ~ 2023.08
   link: https://edu.nextstep.camp/c/R89PYi5H
   quote: >
     Next Step 교육
@@ -27,7 +27,7 @@
 
 - layout: left
   name: TDD, 클린 코드 with Java 15기
-  dates: 2022-09 ~ 2022-11
+  dates: 2022.09 ~ 2022.11
   link: https://edu.nextstep.camp/c/8fWRxNWU
   quote: >
     Next Step 교육
