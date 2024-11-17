@@ -10,12 +10,10 @@
   description: | # this will include new lines to allow paragraphs
     * Vertica, Cubrid, Postgresql
     * Elasticsearch
-    * AWS SQS, S3, EC2, EB
+    * AWS SQS, S3, EC2, Elastic Beanstalk
     * Jenkins, Circle Ci
-    * Grafana
-    * Zipkin
-    * Kafka
-    * Debezium
+    * Grafana, Zipkin
+    * Kafka, Debezium
     * Docker swarm 
     * Nginx, Tomcat
     * Linux Centos
