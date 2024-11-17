@@ -1,5 +1,5 @@
 - layout: left
-  company: 야놀자에프앤비솔루션
+  company: 야놀자 F&B Solution
   link: https://home.nowwaiting.co
   job_title: 나우서비스테크팀
   dates: 2023.7 ~ 현재
@@ -7,7 +7,8 @@
    웨이팅, 포스/키오스크 주문서비스(Ruby/Java)
   description: | # this will include new lines to allow paragraphs
      * 웨이팅, 포스/키오스크 주문서비스 서버 개발 및 유지보수
-     * Devops, 모니터링 환경 개선
+     * 리엔지니어링을 통해 서비스 고도화
+     * DevOps, 모니터링 환경 개선
 
 - layout: left
   company: 위메프
