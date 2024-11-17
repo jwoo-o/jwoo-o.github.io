@@ -8,7 +8,7 @@
   description: | # this will include new lines to allow paragraphs
      * 웨이팅, 포스/키오스크 주문서비스 서버 개발 및 유지보수
      * 리엔지니어링을 통해 서비스 고도화
-     * DevOps, 모니터링 환경 개선
+     * DevOps(로깅, 모니터링, 알림, 배포) 환경 개선
 
 - layout: left
   company: 위메프
