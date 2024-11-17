@@ -1,1 +1,8 @@
-
+- layout: left
+  name: TDD, 클린 코드 with Java 15기
+  dates: 2022.09 ~ 2022.11
+  link: https://edu.nextstep.camp/c/8fWRxNWU
+  quote: >
+    Next Step 교육
+  description: | # this will include new lines to allow paragraphs
+    * TDD와 클린코드 교육
