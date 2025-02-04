@@ -9,8 +9,9 @@
       * 루비 온 레일즈로 운영중인 나우웨이팅 서비스의 클라이언트(FE, AND)의 요청 부분을 자바 프로젝트로 기술전환
     * 사용기술 : Spring boot, Spring Cloud Gateway, JPA
     * 핵심성과
-      * CI/CD, 로깅, 모니터링 도입을 통한 **개발비용 대폭 절감**
-      * 에러코드, API문서 관리를 통해 FE, AND 팀과 협업구조 개선
+      * CI/CD (Jenkins, Circle Ci, 소나큐브), 로깅 (페이퍼트레일, Zipkin), 모니터링 (Pinpoint), 알림(Sentry, Slack) 도입을 통한 **개발비용 대폭 절감**
+      * 에러코드 정의, API문서 관리를 통해 FE, AND 팀과 협업구조 개선
+      * 웨이팅 및 주문 기능들을 기존 루비 대비 쉽게 코드로 정리하여 팀원들의 도메인 분석이 용이하도록 작업
 
 - layout: top
   name: 나우웨이팅 서비스 개선
@@ -18,23 +19,38 @@
   description: | # this will include new lines to allow paragraphs
     * 배경
       * 루비 온 레일즈로 운영중인 나우웨이팅 서비스가 6개월간 <br> 이전 개발자들의 부재로 인한 히스토리 단절된 상태에서 유지보수가 가능한 구조로 재정비 필요
-    * 사용기술 : Ruby on Rails, Sidekiq
+    * 사용기술 : Ruby on Rails, Sidekiq, Aws Elastic Beanstalk, Docker
     * 핵심성과
       * 유지보수 가능하도록 현행화 작업을 통한 신뢰성 향상
       * Circle Ci를 통한 CI/CD 파이프라인 구축
       * Elastic Beanstalk의 루비 버전 이슈 대응
 
 - layout: top
-  name: 모바일 주문시스템 개발
+  name: 이제페이 결제모듈 개선
+  quote: >
+  description: | # this will include new lines to allow paragraphs
+    * 배경
+      * 모바일 주문의 결제부분에서 이지페이(PG)사에서 제공하는 PHP 결제모듈의 간헐적인 에러로 결제 장애가 발생
+    * 문제해결
+      * PHP 모듈의 코드를 분석하여 필요한 부분만 자바코드로 전환
+    * 핵심성과
+      * 장애 발생 시 슬랙알림을 통한 빠른 대응 체계 구축
+      * 장애 발생 이후 결제 시스템 안정성 유지
+      * 팀 내 기술 공유 세션을 통해 결제 시스템 관련 지식 전파
+
+- layout: top
+  name: 모바일 주문시스템 현행화
   quote: >
   description: | # this will include new lines to allow paragraphs
     * 배경
       * [카카오톡의 챗봇 주문하기 서비스 종료](https://www.mk.co.kr/news/business/10853578)
       * 모바일 주문 서비스에 계약된 사장님들의 이탈 방지
+    * 사용기술 : Ruby on Rails, PHP, Aws Elastic Beanstalk
     * 핵심성과
+      * 히스토리가 단절된 상황에서 빠르게 서비스를 분석하여 현행화 덕분에 **90%** 이상 계약 유지
       * [야오더를 런칭 할 수 있는 발판 마련](https://m.news.nate.com/view/20231123n08068)
       * 입사 3개월 만에 우수사원 선정
-  
+
 - layout: top-middle
   name: 주요성과 - 위메프
 
@@ -81,9 +97,6 @@
     * 핵심성과
       * 8억건의 제휴 상품중 비슷한 상품을 카탈로그로 가공하기 위한 ES 상품 검색 api개발
       * ngram tokenizer를 활용하여 상품 검색 품질 향상
-    * 획득역량
-      * 검색 성능 테스트 방법
-      * ES 검색 api 사용법
 
 - layout: top
   name: 상품 메타 데이터 색인 시스템 개발
@@ -110,12 +123,12 @@
       * 풀사이클 개발(기획,개발,운영,지원)
       * 보안 정책 실시간 적용
       * jsp 기반시스템 -> backend 와 frontend 분리
-        * backend (spring 3.1 전자정부프레임워크) - > rest api 전환 (spring boot 2.1x - jpa)  - (멀티모듈 프로젝트)                          
+        * backend (spring 3.1 전자정부프레임워크) -> (spring boot 2.1x - jpa)                  
         * frontend (jsp - jquery) -> vue.js 기반 spa 환경으로 관리자 admin 개발
       * 개인정보,매체제어애 대한 로그를 분석가능 하도록 차트용 batch개발
       * docker 기반 패키지로 솔루션 설치 간편화
     * 역할 : 풀스택 엔지니어로써 보안 솔루션 어드민 및 서버 개발
-   
+
 - layout: top
   name: 레거시 보안시스템 리팩토링 / 리엔지니어링
   quote: >
